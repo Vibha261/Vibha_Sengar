@@ -1,8 +1,9 @@
 import React from 'react'
 import './Project.css'
-import { Card, CardBody, CardHeader,CardImg, CardTitle } from 'reactstrap'
+import { Card, CardBody, CardHeader,CardImg,} from 'reactstrap'
 import ELibrary from '../../Assest/Image/Elibrary.png'
 import Temp from '../../Assest/Image/Temp.png'
+import count from '../../Assest/Image/count.png'
 
 function Project() {
   return (
@@ -17,7 +18,7 @@ function Project() {
                         <h1>Description:</h1> A Virtual Library
                         <h1>Technology:</h1> HTML, CSS, JavaScript, ReactJs
                         <h1>Role:</h1> Complete Development
-                        <h1>Link:</h1> <a href='https://github.com/Vibha261/ELibrary' target='blank' rel="noopener noreferre">E-Library</a>
+                        <h1>Link:</h1> <a href='https://vibha261.github.io/ELibrary/' target='_blank' rel="noreferrer">E-Library</a>
                     </CardBody>
                 </Card>
                 <br/>
@@ -28,10 +29,20 @@ function Project() {
                         <h1>Description:</h1> Control the overall temperature.
                         <h1>Technology:</h1> React JS, JavaScript
                         <h1>Role:</h1> Complete Development
-                        <h1>Link:</h1> <a href='https://github.com/Vibha261/ELibrary' target='blank' rel="noopener noreferre">Temperature Controller</a>
+                        <h1>Link:</h1> <a href='https://vibha261.github.io/TemperatureController/' target='blank' rel="noreferrer">Temperature Controller</a>
                     </CardBody>
                 </Card>
-
+                <br/>
+                <Card className='cr1'>
+                    <CardHeader className='ch1'>Counter Application</CardHeader>
+                    <center><CardImg src={count} alt='Project' className='ci1'/></center>
+                    <CardBody className='bd'>
+                        <h1>Description:</h1> Count the value according to the command.
+                        <h1>Technology:</h1> React JS, JavaScript
+                        <h1>Role:</h1> Complete Development
+                        <h1>Link:</h1> <a href='https://vibha261.github.io/TemperatureController/' target='blank' rel="noreferrer">Counter Application</a>
+                    </CardBody>
+                </Card>
             </div>
         </div>
       

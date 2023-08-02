@@ -2,7 +2,7 @@ import React from 'react'
 import {Navbar, NavbarToggler, Collapse, NavLink, Nav, NavbarBrand} from 'reactstrap';
 import White from '../../Assest/Logo/White.png';
 import './Navigator.css';
-import {Home} from '../Home/Home'
+// import {Home} from '../Home/Home'
 
 function Navigator() {
     const [isOpen, setIsOpen] = React.useState(false);

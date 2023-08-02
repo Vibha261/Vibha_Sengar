@@ -75,7 +75,7 @@ function Skill() {
               </CardTitle>
               <hr/>
               <CardText>
-                <img src={reac} alt="Skill Image"className='cardImg' width="180px"/>
+                <img src={reac} alt="SkillImage" className='cardImg' width="180px"/>
               </CardText>
             </CardBody>
           </Card>

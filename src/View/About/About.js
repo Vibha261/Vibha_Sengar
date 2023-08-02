@@ -18,8 +18,7 @@ function About() {
                 <Row>
                     <p className='aboutContent'>
                     I am a passionate web developer. <br/>
-                    I have a strong foundation in front-end and 
-                    back-end development, combined with a deep 
+                    I have a strong foundation in front-end, combined with a deep 
                     understanding of user experience and design principles. <br/>
                     My journey in web development began with a fascination for the 
                     endless possibilities that the digital realm offers. 
@@ -31,27 +30,27 @@ function About() {
 
                     </p>
                 </Row>
-                <a href='https://drive.google.com/file/d/1QzA7IK15PMj7LAGgG7Oz_rj1L90wsg4I/view?usp=drive_link' target='_blank' download>
+                <a href='https://drive.google.com/file/d/1QzA7IK15PMj7LAGgG7Oz_rj1L90wsg4I/view?usp=drive_link' target='_blank' rel="noreferrer" download>
                     <Button className='Resume' color='info' outline>
                         Resume
                     </Button>    
                 </a>
-                <a href='https://www.linkedin.com/in/vibha-sengar-871586203/' target='_blank'>
+                <a href='https://www.linkedin.com/in/vibha-sengar-871586203/' target='_blank' rel="noreferrer">
                     <Button className='Resume' color='success' outline>
                         LinkedIn
                     </Button>
                 </a>
-                <a href='https://github.com/Vibha261' target='_blank'>
+                <a href='https://github.com/Vibha261' target='_blank' rel="noreferrer">
                     <Button className='Resume' color='primary' outline>
                         Github
                         </Button>
                 </a>
-                <a href='mailto: vibhasengar03@gmail.com' target='_blank'>
+                <a href='mailto: vibhasengar03@gmail.com' target='_blank' rel="noreferrer">
                     <Button className='Resume' color='warning' outline>
                         Gmail
                         </Button>
                 </a>
-                <a href='https://leetcode.com/vibhasengar03/' target='_blank'>
+                <a href='https://leetcode.com/vibhasengar03/' target='_blank' rel="noreferrer">
                     <Button className='Resume' color='danger' outline>
                         Leetcode
                         </Button>
