@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Courgette&family=Lobster&display=swap');
+.skillHeading{
+    margin-top: 4%;
+    font-family: 'Lobster', cursive;
+    font-weight: 300px;
+    font-size: 70px;
+    color: azure;
+}
+.crd{
+    display: flex;
+    justify-content: center;
+    flex-flow: nowrap;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.ca1{
+    display: block;
+    margin-block-end: 40px;
+    transition: all .2s ease-out;
+}
+.ca1:hover{
+    transform: scale(1.2);
+}
+.Ct1{
+    font-family: 'Caladea', serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+.cardImg{
+    height: 150px;
+    width: 150px;
+}
+@media only screen and (max-width: 786px){
+    .crd{
+      /* flex-flow: column;
+      justify-content: center; */
+      margin: 0 90px 0 90px;
+      flex-direction: column;
+    }
+  }

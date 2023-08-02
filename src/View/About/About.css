@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Courgette&family=Lobster&display=swap');
+
+.aboutContent{
+    margin-top: 7%;
+    font-family: 'Caladea', serif;
+    font-weight: 900;
+    font-size: 21px;
+    color: bisque;
+}
+.hea{
+    margin-top: 1%;
+    font-family: 'Lobster', cursive;
+    font-weight: 300px;
+    font-size: 70px;
+    color: azure;
+}
+.pr{
+    margin-top: 6%;
+}
+.Resume{
+    margin-left: 5px;
+    color: rgb(182, 220, 254);
+    font-family: 'Caladea', serif;
+    font-weight: 900;
+    font-size: 20px;
+    border: 3px solid rgb(230, 234, 235);
+    transition: all .2s ease-in-out;
+    
+}
+.Resume:hover{
+    transform: scale(1.1); 
+}

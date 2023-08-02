@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Courgette&family=Lobster&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background: url('./Assest/Image/Tr.png');
+  background-size: cover;
+  text-align: center;
+
+}
+.c1{
+    width: 80%;
+    background-color: transparent;
+    position: relative;
+    z-index: 9;
+    transition: all .3s step-end;
+}
+.Footert{
+  background-color: black;
+  color: aliceblue;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+
+}
+

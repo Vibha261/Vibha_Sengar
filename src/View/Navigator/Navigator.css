@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital@1&family=Courgette&family=Lobster&display=swap');
+.navigation{
+    display: block;
+    width: 350px; 
+    padding: 30px;
+}
+  
+.lets{
+
+    float: right;
+    box-shadow: 1px 1px 1px #1c059d;
+    animation: moveDown 0.5s ease-in-out;
+    background-color: rgba(57, 3, 251, 0.89);
+    font-size: 20px;
+    height: 60px !important;
+    justify-content: space-between;
+} 
+    .logo {
+        width: 5em;
+    }
+    .lets-right{
+        margin-left: 65% ;
+        float: right;
+    }
+    .link{
+        color: rgb(251, 249, 249);
+        font-family: 'Courgette', cursive;
+    }
+    .link:hover{
+        color: rgb(4, 4, 4);
+    }
+    @media only screen and (max-width: 786px){
+        .lets{
+        height: auto !important;
+        width: 100%;
+        }
+        .logo{
+        margin-bottom:-32px;
+        margin-left: 22px;
+        }
+    }
+    
+    @keyframes moveDown {
+        from {
+        transform: translateY(-5rem);
+        }
+        to {
+        transform: translateY(0rem);
+        }
+    }
