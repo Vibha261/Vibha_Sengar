@@ -8,9 +8,9 @@
 .lets{
 
     float: right;
-    box-shadow: 1px 1px 1px #1c059d;
+    box-shadow: 1px 1px 1px #57565a;
     animation: moveDown 0.5s ease-in-out;
-    background-color: rgba(57, 3, 251, 0.89);
+    background-color: rgba(15, 15, 16, 0.89);
     font-size: 20px;
     height: 60px !important;
     justify-content: space-between;
@@ -27,7 +27,7 @@
         font-family: 'Courgette', cursive;
     }
     .link:hover{
-        color: rgb(4, 4, 4);
+        color: rgb(15, 137, 182);
     }
     @media only screen and (max-width: 786px){
         .lets{

@@ -40,7 +40,7 @@ function Project() {
                         <h1>Description:</h1> Count the value according to the command.
                         <h1>Technology:</h1> React JS, JavaScript
                         <h1>Role:</h1> Complete Development
-                        <h1>Link:</h1> <a href='https://vibha261.github.io/TemperatureController/' target='blank' rel="noreferrer">Counter Application</a>
+                        <h1>Link:</h1> <a href='https://vibha261.github.io/CountApp/' target='blank' rel="noreferrer">Counter Application</a>
                     </CardBody>
                 </Card>
             </div>
